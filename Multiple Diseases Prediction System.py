@@ -11,7 +11,7 @@ from  streamlit_option_menu import option_menu
 
 diabetes_model=pickle.load(open('Trained_model.sav','rb'))
 heart_model=pickle.load(open('Heart_Disease.sav','rb'))
-breast_cancer_model=pickle.load(open('Breast Cancer Classifier & Neural Network.sav','rb'))
+breast_cancer_model=pickle.load(open('Breast Cancer Classifier and Neural Network.sav','rb'))
 #sidebar for navigation
 
 with st.sidebar:
