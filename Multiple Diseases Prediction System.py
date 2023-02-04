@@ -7,7 +7,7 @@ Created on Wed Jan 25 23:05:39 2023
 
 import pickle
 import streamlit as st
-from  streamlit_option_menu import option_menu
+from  streamlit-option-menu import option-menu
 
 diabetes_model=pickle.load(open('C:/Users/Pearry/Desktop/Multiple Diseases Prediction/saved models/Trained_model.sav','rb'))
 heart_model=pickle.load(open('C:/Users/Pearry/Desktop/Multiple Diseases Prediction/saved models/Heart_Disease.sav','rb'))
